@@ -1,0 +1,22 @@
+{
+  "name": "csp_server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www --ignore './uploads/' --ignore './test_js/'  '/home/zhiju/Desktop/wiki_ori'",
+    "devstart1": "nodemon ./bin/www --ignore './uploads/' --ignore './test_js/'  '/var/www/html/wordpress_ori'"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "mongodb": "^3.1.13",
+    "pug": "2.0.0-beta11",
+    "cookie-parser": "~1.4.3",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
